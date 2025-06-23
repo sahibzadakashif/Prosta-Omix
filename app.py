@@ -63,7 +63,7 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("## Team Prosta-Omix:")
+    st.markdown("<h2 style='color:#2E8B57;'>Team Prosta-Omix:</h2>", unsafe_allow_html=True)
 
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     
