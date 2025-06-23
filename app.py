@@ -28,7 +28,7 @@ def get_download_link(df):
 
 # Main App
 def main():
-    st.title("🔬 Prosta-Omix")
+    st.markdown("<h1 style='color:#2E8B57;'>🔬 Prosta-Omix</h1>", unsafe_allow_html=True)
     st.markdown("""
 **Welcome to Prosta-Omix — An AI-powered launchpad for prostate-targeted drug discovery**
 
