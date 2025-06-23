@@ -60,7 +60,7 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("## AlzPredictor Contributors:")
+    st.markdown("## Team Prosta-Omix:")
 
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     
