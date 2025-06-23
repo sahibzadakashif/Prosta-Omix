@@ -29,8 +29,11 @@ def get_download_link(df):
 # Main App
 def main():
     st.title("🔬 Prosta-Omix")
-    st.markdown("**Welcome to Prosta-Omix — An AI-powered launchpad for prostate-targeted drug discovery**
-Prosta-Omix is a next-generation AI-powered platform designed to accelerate therapeutic discovery against prostate cancer. By integrating biomarker gene signatures with molecular fingerprints, Prosta-Omix accurately predicts the Topological Polar Surface Area (TPSA) — a key factor in drug permeability and pharmacokinetics. Whether you are screening new compounds or refining lead candidates, Prosta-Omix empowers researchers with fast, data-driven TPSA predictions tailored for prostate cancer drug development.")
+    st.markdown("""
+**Welcome to Prosta-Omix — An AI-powered launchpad for prostate-targeted drug discovery**
+
+Prosta-Omix is a next-generation AI-powered platform designed to accelerate therapeutic discovery against prostate cancer. By integrating biomarker gene signatures with molecular fingerprints, Prosta-Omix accurately predicts the Topological Polar Surface Area (TPSA) — a key factor in drug permeability and pharmacokinetics. Whether you are screening new compounds or refining lead candidates, Prosta-Omix empowers researchers with fast, data-driven TPSA predictions tailored for prostate cancer drug development.
+""")
 
     input_method = st.radio("Choose Input Method", ["Paste SMILES", "Upload File"])
 
