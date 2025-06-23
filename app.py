@@ -6,7 +6,7 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 # Streamlit Page Setup
-st.set_page_config(page_title="AlzPredictor", layout="wide")
+st.set_page_config(page_title="Prosta-Omix", layout="wide")
 
 # Function to compute TPSA
 def calculate_tpsa(smiles_list):
@@ -28,8 +28,9 @@ def get_download_link(df):
 
 # Main App
 def main():
-    st.title("🔬 AlzPredictor")
-    st.markdown("Calculate the **Topological Polar Surface Area (TPSA)** from Canonical SMILES of Drugs targeting Beta-Amyloid protein in Alzheimer's Disease.")
+    st.title("🔬 Prosta-Omix")
+    st.markdown("**Welcome to Prosta-Omix — An AI-powered launchpad for prostate-targeted drug discovery**
+Prosta-Omix is a next-generation AI-powered platform designed to accelerate therapeutic discovery against prostate cancer. By integrating biomarker gene signatures with molecular fingerprints, Prosta-Omix accurately predicts the Topological Polar Surface Area (TPSA) — a key factor in drug permeability and pharmacokinetics. Whether you are screening new compounds or refining lead candidates, Prosta-Omix empowers researchers with fast, data-driven TPSA predictions tailored for prostate cancer drug development.")
 
     input_method = st.radio("Choose Input Method", ["Paste SMILES", "Upload File"])
 
@@ -80,27 +81,33 @@ def main():
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Dong Qing Wei</h3>
-                 Professor<br>
-                 Shanghai Jiao Tong University,China
+                <h3 style='color:#800000;'>Shumaila Shahid</h3>
+                MS Biochemistry<br>
+                School of Biochemistry and Biotechnology<br>
+                University of the Punjab, Lahore<br>
+                <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
             </div>
         """, unsafe_allow_html=True)
 
     with col3:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Munawar Abbas</h3>
-                PhD Biological Sciences<br>
-                Henan University of Technology,Zhengzhou China
+                <h3 style='color:#800000;'>Dr. Saba Shahid</h3>
+                Senior Consultant<br>
+                Bachelors of Medicine and Bachelors of Surgery(MBBS)<br>
+                University of Health Sciences, Lahore<br>
+            
             </div>
         """, unsafe_allow_html=True)
 
     with col4:
-        st.markdown("""
+       st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Arif Ali</h3>
-                Phd Researcher<br>
-                <b>Shanghai Jiatong University, China
+                <h3 style='color:#800000;'>Dr. Samiya Iqbal</h3>
+                Bachelors of Medicine and Bachelors of Surgery(MBBS)<br>
+                Fellowship of the College of Physicians and Surgeons(FCPS)<br>
+                King Edward Medical University, Lahore<br>
+            
             </div>
         """, unsafe_allow_html=True)
 
