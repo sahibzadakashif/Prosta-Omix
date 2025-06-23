@@ -70,7 +70,7 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
     with col1:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Kashif Iqbal Sahibzada</h3>
+                <h3 style='color:#2E8B57;'>Dr. Kashif Iqbal Sahibzada</h3>
                 Assistant Professor<br>
                 Department of Health Professional Technologies,<br>
                 Faculty of Allied Health Sciences,<br>
@@ -84,7 +84,7 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
     with col2:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Shumaila Shahid</h3>
+                <h3 style='color:#2E8B57;'>Shumaila Shahid</h3>
                 MS Biochemistry<br>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
@@ -95,7 +95,7 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
     with col3:
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Saba Shahid</h3>
+                <h3 style='color:#2E8B57;'>Dr. Saba Shahid</h3>
                 Senior Consultant<br>
                 Bachelors of Medicine and Bachelors of Surgery(MBBS)<br>
                 University of Health Sciences, Lahore<br>
@@ -106,7 +106,7 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
     with col4:
        st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#800000;'>Dr. Samiya Iqbal</h3>
+                <h3 style='color:#2E8B57;'>Dr. Samiya Iqbal</h3>
                 Bachelors of Medicine and Bachelors of Surgery(MBBS)<br>
                 Fellowship of the College of Physicians and Surgeons(FCPS)<br>
                 King Edward Medical University, Lahore<br>
