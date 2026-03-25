@@ -102,14 +102,6 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
             
             </div>
         """, unsafe_allow_html=True)
-
-    with col4:
-       st.markdown("""
-            <div style='line-height: 1.3; color: #000000;'>
-                <h3 style='color:#2E8B57;'>Dr. Samiya Iqbal</h3>
-                Bachelors of Medicine and Bachelors of Surgery(MBBS)<br>
-                Fellowship of the College of Physicians and Surgeons(FCPS)<br>
-                King Edward Medical University, Lahore<br>
             
             </div>
         """, unsafe_allow_html=True)
