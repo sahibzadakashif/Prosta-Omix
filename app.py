@@ -102,9 +102,6 @@ Prosta-Omix is a next-generation AI-powered platform designed to accelerate ther
             
             </div>
         """, unsafe_allow_html=True)
-            
-            </div>
-        """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
